@@ -1,6 +1,6 @@
 1. Create a rule with rule name:- Event Generator under any Windows Profile.
    a. Rule Type:- Directory 
-   b. Directory Path:- C:\FIM_Test
+   b. Directory Path:- C:\Windows\Test
    c. Depth:- All
    d. Monitor the directory structure for:- All
    e: Monitor files within the directory structure for:- All
