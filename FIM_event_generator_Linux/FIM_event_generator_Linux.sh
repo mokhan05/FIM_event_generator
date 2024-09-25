@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Removing Directory if already exist 
-# rm -rf /FIM_Test >/dev/null 2>&1
+rm -rf /FIM_Test >/dev/null 2>&1
 
 # Creating Temporary Directory for generating event   
-# mkdir /FIM_Test
+mkdir /FIM_Test
 
 FIM_Event_Generator()
 {
@@ -45,4 +45,7 @@ mv /FIM_Test_New /FIM_Test
 chmod -R 755 /FIM_Test
 
 # Remove Directory
-# rm -rf /FIM_Test
+rm -rf /FIM_Test
+
+echo ""
+echo "FIM events generated"
